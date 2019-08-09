@@ -1,1 +1,1 @@
-# Repository of code from Summer 2019 REU looking for dual quasars
+# Repository for code from Summer 2019 REU project on Dual Quasars
