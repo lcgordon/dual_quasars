@@ -87,6 +87,11 @@ for n in np.arange(n,m):
         dL = Distance(unit = u.Mpc, z=redshift_target, cosmology = cosmo) / u.Mpc
         magnitude_target = r_mag_target - 5*np.log(dL) - 25
 
+        #if you have the absolute magnitude of your target, remove the above calculation and use:
+        #magnitude_target = quasar_list.iloc[n][2] 
+        #instead
+     
+        
 #print(r_magnitude_target, magnitude_target, redshift_target)
 
     #search for and download all data products associated with those coordinates    
