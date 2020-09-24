@@ -9,3 +9,6 @@ available_volume.py is the available volume calculation code
 calculatingETCParameters.py is the code to calculate the parameters needed to calculate the limiting magnitude
 
 dataRetrieve_makeCountours.py is the code to pull data from HST and produce contour plots from it
+
+
+Contour creation code is now housed in a much nicer setup <a href="https://github.com/lcgordon/hubble_contours"> here</a>
